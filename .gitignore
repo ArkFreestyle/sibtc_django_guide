@@ -8,5 +8,8 @@ django_env/
 __pycache__/
 *.py[cod]
 
-# Ignore pushing the entire database
+# Ignore local database
 db.sqlite3
+
+# Ignore bootstrap folder
+bootstrap-4.3.1-dist/
