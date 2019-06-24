@@ -25,7 +25,7 @@ SECRET_KEY = 'qrtxo3dp4!id9alo1ht0k@f!ti=xmn#__2htxxcl$u)ofuxici'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['arkfreestyle.pythonanywhere.com']
 
 
 # Application definition
@@ -123,9 +123,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static'),
-]
+#STATICFILES_DIRS = [
+#    os.path.join(BASE_DIR, 'static'),
+#]
 LOGOUT_REDIRECT_URL = 'home'
 LOGIN_REDIRECT_URL = 'home'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+STATIC_ROOT = '/home/arkfreestyle/sibtc_django_guide/src/myproject/static'
